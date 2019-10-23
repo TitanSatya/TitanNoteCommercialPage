@@ -1,0 +1,149 @@
+body {
+    font-family: "ubuntu";
+}
+
+h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+#header-bar {
+    background-color: #ff6473;
+    text-align: left;
+}
+
+.image-bg {
+    width: 500px;
+    height: 320px;
+}
+
+.navbar-item {
+    padding: 0 18px;
+}
+
+.navbar-brand {
+    text-align: left;
+    ;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.download {
+    margin: 1% 1% 1% 0;
+}
+
+/*888888888888888888888888888888888888888888888 Features Section 888888888888888888888888888888888888*/
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.icon {
+    color: #757882;
+}
+
+.icon:hover {
+    color: #b4b7c2;
+    ;
+}
+
+.h2-features {
+    color: #757882;
+}
+
+.p-features {
+    color: gray;
+    padding: 0 0 30px 0;
+}
+
+.h2-special {
+    margin: 10px;
+    padding: 30px 30px 50px 30px;
+}
+
+/***************************************** Customer Voice ******************************************/
+
+#customer-voice {
+    padding: 7% 15%;
+    background-color: #5cc1b3;
+    text-align: center;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.h2-customers {
+    color: white;
+}
+
+/*************************************** Pricing ******************************************************/
+
+#pricing {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+/************************************** Download *****************************************************/
+
+#download {
+    padding: 7% 15%;
+    background-color: #6ef7c8;
+    text-align: center;
+}
+
+/************************************* footer *******************************************************/
+
+#footer {
+    padding: 3% 15%;
+    text-align: center;
+}
+
+.ul-footer {
+    list-style: none;
+    margin: 0;
+}
+
+.social-icon {
+    color: #757882;
+    margin: 30px 20px;
+    padding: 10px;
+}
+
+.p-footer {
+    padding-top: 50px;
+    font-weight: bold;
+    color: gray;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 600px) {
+    #img-laptop {
+        width: 360px;
+        height: 200px;
+    }
+    @media only screen and (max-width: 400px) {
+        #img-laptop {
+            width: 180px;
+            height: 100px;
+        }
+    }
