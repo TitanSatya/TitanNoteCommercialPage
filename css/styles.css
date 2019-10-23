@@ -111,15 +111,32 @@ h1 {
 }
 /********************************* Developer ****************************************************/
 #developer{
-    padding: 7% 15%;
+    padding: 1% 15%;
     background-color: white;
     text-align: center;
 }
+.h2-developers{
+    color: gray;
+    margin: 30px;
+}
+.h3-developers{
+    color: gray;
+    margin: 20px;
+}
+.h5-developers{
+    color: gray;
+    margin: 20px;
+}
+.arrow{
+    color: #ff6473;
+}
+ 
 /************************************* footer *******************************************************/
 
 #footer {
     padding: 3% 15%;
     text-align: center;
+    background-color: #5cc1b3;
 }
 
 .ul-footer {
@@ -128,7 +145,7 @@ h1 {
 }
 
 .social-icon {
-    color: #757882;
+    color:white;
     margin: 30px 20px;
     padding: 10px;
 }
@@ -136,7 +153,7 @@ h1 {
 .p-footer {
     padding-top: 50px;
     font-weight: bold;
-    color: gray;
+    color: white;
 }
 
 /* Media Query */
