@@ -109,7 +109,12 @@ h1 {
     background-color: #6ef7c8;
     text-align: center;
 }
-
+/********************************* Developer ****************************************************/
+#developer{
+    padding: 7% 15%;
+    background-color: white;
+    text-align: center;
+}
 /************************************* footer *******************************************************/
 
 #footer {
